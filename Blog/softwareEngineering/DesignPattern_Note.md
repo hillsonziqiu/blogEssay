@@ -122,6 +122,105 @@ copy 一下小书作者的总结
 
 ### 单例模式
 
+总是用顾名思义这个词，但是这里真的总结的太妙了，还是得说顾名思义，单例意思就是一个源，一个例子，一个实例，反正不管你长成啥样，你反正就是你自己。这个有点像我在开发的时候，喜欢通过修改传进来的形参来达到修改传过来的源变量的目的. 可能在标准代码中不被允许，可能变量的变化会让你产生某些疑问，我想说，只要思路清晰，逻辑正确，自己的代码你想怎么写就怎么写。不过在团队合作中还是要遵循规范，不能一昧的特立独行。扯远了，回到单例上来。举出几个单例模式的例子吧： vuex， redux。 比如 vuex 可以在项目的任何地方，采用 import 的方式引入，也能获取到同一个 store 实例的数据。就是因为单例模式。单例在你身边，但是你可能很容易忽略。
+
+话不多说，直接上代码：
+
+```key
+// 单例初体验
+class ZiqiuPerson {
+  constructor() {
+    this.money = 0
+  }
+
+  static create() {
+    if (!ZiqiuPerson.instance) {
+      ZiqiuPerson.instance = new ZiqiuPerson()
+    }
+    return ZiqiuPerson.instance
+  }
+
+  money = 0
+
+  ask(arg) {
+    if (arg.includes('子丘好帅~')) {
+      console.log('谢谢夸奖')
+    } else {
+      console.log('我不知道你在讲什么，请说: 子丘好帅, 谢谢~')
+    }
+  }
+
+  give(money) {
+    this.money += money
+  }
+}
+
+const insZiqiuA = ZiqiuPerson.create()
+const insZiqiuB = ZiqiuPerson.create()
+
+console.log(insZiqiuA === insZiqiuB) // true
+
+insZiqiuA.ask('子丘好帅') // '谢谢夸奖'
+insZiqiuA.ask('子丘好丑') // '我不知道你在讲什么，请说: 子丘好帅, 谢谢~'
+
+insZiqiuA.give(300000)
+console.log(insZiqiuA.money) // 300000  哇发达了，一下子这么多钱
+console.log(insZiqiuB.money) // 300000  哇还是我，也是有这么多的钱，所以不管有多少个定义，我还是我
+```
+
+因为这是个我的单例，那么我可以把我的 money 属性也加在上面。那么我卖东西，不管是谁付给我钱，那么我拥有 money 总数都会增加。而且两个实例都是同一个存款
+
+```
+// 采用闭包方法再来实现一遍create  的逻辑
+
+ZiqiuPerson.create = (function() {
+  let instance = null
+  return function() {
+    if (!instance) {
+      instance = new ZiqiuPerson()
+    }
+    return instance
+  }
+})()
+
+```
+
+copy 文章中 vuex 的代码留作纪念
+
+```
+// 安装vuex插件
+Vue.use(Vuex)
+
+// 将store注入到Vue实例中
+new Vue({
+    el: '#app',
+    store
+})
+
+// 通过调用Vue.use()方法，我们安装了 Vuex 插件。Vuex 插件是一个对象，它在内部实现了一个 install 方法，这个方法会在插件安装时被调用，从而把 Store 注入到Vue实例里去。也就是说每 install 一次，都会尝试给 Vue 实例注入一个 Store。
+
+let Vue // 这个Vue的作用和楼上的instance作用一样
+...
+
+export function install (_Vue) {
+  // 判断传入的Vue实例对象是否已经被install过Vuex插件（是否有了唯一的state）
+  if (Vue && _Vue === Vue) {
+    if (process.env.NODE_ENV !== 'production') {
+      console.error(
+        '[vuex] already installed. Vue.use(Vuex) should be called only once.'
+      )
+    }
+    return
+  }
+  // 若没有，则为这个Vue实例对象install一个唯一的Vuex
+  Vue = _Vue
+  // 将Vuex的初始化逻辑写进Vue的钩子函数里
+  applyMixin(Vue)
+}
+```
+
+啊~~~竟然写到了第二天。。。以后不能这样了，以后工作日的话每天早上写一篇好了……啧啧啧……话说我的工作还没完成，希望明天能搞定~加油！
+
 ### 原型模式
 
 ### 装饰器模式
