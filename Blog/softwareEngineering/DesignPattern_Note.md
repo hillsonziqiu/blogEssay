@@ -221,6 +221,38 @@ export function install (_Vue) {
 
 啊~~~竟然写到了第二天。。。以后不能这样了，以后工作日的话每天早上写一篇好了……啧啧啧……话说我的工作还没完成，希望明天能搞定~加油！
 
+第二天来补充了, 补充一个 store 本地存储实例
+
+```
+class Store {
+
+  static create() {
+    if (!Store.instance) {
+      return new Store()
+    }
+    return Store.instance
+  }
+
+  getItem(key) {
+    return window.localStorage.getItem(key)
+  }
+
+  setItem(key, val) {
+    return window.localStorage.setItem(key, val)
+  }
+}
+
+const StoreA = Store.create()
+const StoreB = Store.create()
+
+StoreA.setItem('name', 'Ziqiu')
+StoreB.getItem('name')  // 'Ziqiu'
+
+console.log(StoreA === StoreB) // true
+```
+
+下册的单例模型举例： 全局弹框（弹弹弹，弹出全局框）
+
 ### 原型模式
 
 ### 装饰器模式
