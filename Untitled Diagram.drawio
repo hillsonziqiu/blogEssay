@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T08:34:49.978Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="9Ru1PqA-l_09qb1YqxSD" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T09:36:40.498Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="H2O8laRddXJvR97fBkHo" version="14.2.6" type="github">
   <diagram id="ufc3UpPQxjtCwLvqwBDd" name="Page-1">
     <mxGraphModel dx="2001" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -774,6 +774,24 @@
         </mxCell>
         <mxCell id="8dc-yX7FGoneWtaMe0-X-123" value="数据管理SDK" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="6790" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-124" value="权限校验" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="7000" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-125" value="方法授权" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="7000" y="755" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-126" value="数据获取" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="7000" y="905" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-127" value="数据获取" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="7000" y="1077" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-128" value="方法集合" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="7000" y="1240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-129" value="响应式数据" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="7000" y="1400" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
