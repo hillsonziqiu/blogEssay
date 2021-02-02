@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T02:27:56.157Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="cZOGMo9Xv1hpZKZawPHZ" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T08:02:45.661Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="aqtcBTbmebeflBSse0ab" version="14.2.6" type="github">
   <diagram id="ufc3UpPQxjtCwLvqwBDd" name="Page-1">
-    <mxGraphModel dx="2335" dy="1337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2001" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -723,6 +723,51 @@
         </mxCell>
         <mxCell id="8dc-yX7FGoneWtaMe0-X-104" value="内&lt;br&gt;部&lt;br&gt;对&lt;br&gt;接" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;glass=0;dashed=1;sketch=1;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="3522.77" y="1090" width="40" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-107" value="主应用" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="5050" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-108" value="SDK" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="5490" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-109" value="插件管理平台" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="5920" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-110" value="申请插件" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-111" value="新增git仓库" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-112" value="插件开发脚手架" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-113" value="提供插件服务" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-114" value="插件调试" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-115" value="在线预览" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-116" value="插件提交" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-117" value="插件开发" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-118" value="插件上线" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6060" y="1590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-119" value="代码审核" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6310" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-120" value="测试用例" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6310" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8dc-yX7FGoneWtaMe0-X-121" value="账号校验" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;dashed=1;sketch=1;strokeColor=#000000;gradientColor=none;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="6310" y="1320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
